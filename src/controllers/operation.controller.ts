@@ -43,7 +43,7 @@ export function test(req: Request, res: Response): Response {
     return res;
 }
 
-function validation(array: any[]) {
+function validation(array: any) {
     var correct = true;
     if (Array.isArray(array)) {
         if(array.length > 0) {
@@ -51,11 +51,13 @@ function validation(array: any[]) {
                 if(typeof element != 'number') {
                     correct = false;
                     return;
-                }  
+                }
             });
         } else {
             correct = false;
         }
+    } else {
+        correct = false;
     }
     return correct;
 }
