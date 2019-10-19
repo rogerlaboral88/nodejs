@@ -1,3 +1,6 @@
 export interface Data {
-    array: number[];
+    suma: number;
+    resta: number;
+    multiplicacion: number;
+    division: number;
 }
