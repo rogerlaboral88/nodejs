@@ -7,7 +7,7 @@ API-REST encargada de realizar operaciones matematicas (suma, resta, multiplicac
 
 Tener instalado los siguiente herramientas:
 
-node -v
+node -v 
 npm version
 
 
@@ -15,8 +15,8 @@ npm version
 
 Clonar el repositorio utilizando herramientas como Github Desktop o descargarlo directamente de la url de github. Desde la consola ubicarse en la raiz del proyecto y ejecutar los siguiente comandos:
 
-npm install
-npm run build
+npm install 
+npm run build 
 npm run dev
 
 Esta ejecucion instalara las dependencias, compilara el proyecto y subira el servidor nodeJs por el puerto 3000 para realizar las peticiones al servicio desplegado (POST). Puede utlizar herramientas como Postman.
